@@ -91,4 +91,4 @@ tidy_df <- (arrange(tidy_df, participant_nr, activity))
 ### dim(tidy_df) #### tidy_df has 180 columns i.e. number of participants times number of activities   
 
 ######### write tidy data to csv
-write.table(tidy_df, file = "./tidydata.csv")
+write.table(tidy_df, file = "./tidydata.txt")
